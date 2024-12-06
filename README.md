@@ -2,11 +2,13 @@
 Descritivo do desafio de projeto
 
 #Gitignore#
+
 .idea
 app/node_modules
 *.DS_Store
 *tgz
 junit.xml
+
 
 #gitlab-ci.yml#
 stages:
@@ -22,6 +24,7 @@ realizar_testes:
     - npm test
 
 #Dockerfile#
+
 FROM node:16-alpine
 
 WORKDIR /usr/src/app
